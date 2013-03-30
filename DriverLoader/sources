@@ -1,0 +1,13 @@
+TARGETNAME = DrvLoader
+TARGETPATH = obj
+TARGETTYPE = DRIVER
+
+INCLUDES   = %BUILD%\inc
+LIBS       = %BUILD%\lib
+
+TARGETLIBS= $(TARGETLIBS)\
+			$(IFSKIT_LIB_PATH)\fltMgr.lib
+
+SOURCES    = DriverLoader.c\
+			 ldrreloc.c\
+			 Loader.c

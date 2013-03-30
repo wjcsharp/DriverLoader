@@ -1,0 +1,2 @@
+warnings in directory d:\project\driver\driverloader\driverloader
+d:\project\driver\driverloader\driverloader\loader.h(39) : warning C4273: 'ObInsertObject' : inconsistent dll linkage
